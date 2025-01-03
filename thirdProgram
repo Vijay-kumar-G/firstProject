@@ -1,1 +1,25 @@
+class Solution {
+    public int waysToSplitArray(int[] nums) {
+    int n = nums.length;
+    //presum
+    long[] presum=new long[n];
+    presum[0] = nums[0];
 
+    for(int i=1;i<n;i++){
+        presum[i] = presum[i-1]+nums[i];
+    }
+
+    int count=0;
+    long leftsum=0;
+    long rightsum=0;
+    for(int i=0;i<n-1;i++){
+        leftsum=presum[i];
+        rightsum=presum[n-1]-presum[i];
+        if(leftsum>=rightsum){
+            count++;
+        }
+    }
+
+    return count;
+    }
+}
