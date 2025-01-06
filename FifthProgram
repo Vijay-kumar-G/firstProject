@@ -1,1 +1,25 @@
-
+class Solution {
+    public static void main(String []args){
+        boxes = "110";
+        
+      /*boxes = "001011"
+      Output: [11,8,5,4,3,4]*/
+        System.out.println(minOperations(boxes));
+        
+  }
+    public int[] minOperations(String boxes) {
+        int[] answer = new int[boxes.length()];
+        for (int currentBox = 0; currentBox < boxes.length(); currentBox++) {
+            if (boxes.charAt(currentBox) == '1') {
+                for (
+                    int newPosition = 0;
+                    newPosition < boxes.length();
+                    newPosition++
+                ) {
+                    answer[newPosition] += Math.abs(newPosition - currentBox);
+                }
+            }
+        }
+        return answer;
+    }
+}
