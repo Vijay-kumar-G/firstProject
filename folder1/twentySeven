@@ -1,5 +1,4 @@
 class Solution {
-//
     public int largestIsland(int[][] grid) {
         Map<Integer, Integer> islandSizes = new HashMap<>();
         int islandId = 2;
