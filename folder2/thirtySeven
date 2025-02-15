@@ -1,5 +1,4 @@
 class Solution {
-
     public boolean canPartition(int num, int target) {
         // Invalid partition found
         if (target < 0 || num < target) {
