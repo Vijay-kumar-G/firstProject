@@ -1,5 +1,4 @@
 class Solution {
-
     // Check if the current sequence matches the pattern of 'I' and 'D'
     private boolean check(String sequence, String pattern) {
         for (int index = 0; index < pattern.length(); index++) {
