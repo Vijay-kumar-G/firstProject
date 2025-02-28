@@ -1,5 +1,4 @@
 class Solution {
-
     public int lenLongestFibSubseq(int[] arr) {
         int maxLen = 0;
         // dp[prev][curr] stores length of Fibonacci sequence ending at indexes prev,curr
