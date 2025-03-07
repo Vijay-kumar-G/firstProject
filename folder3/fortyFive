@@ -1,5 +1,4 @@
 class Solution {
-
     public int[] closestPrimes(int left, int right) {
         int prevPrime = -1, closestA = -1, closestB = -1;
         int minDifference = (int) 1e6;
