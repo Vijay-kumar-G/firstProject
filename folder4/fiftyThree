@@ -1,5 +1,4 @@
 class Solution {
-
     public boolean checkValidCuts(int n, int[][] rectangles) {
         // Try both horizontal and vertical cuts
         return checkCuts(rectangles, 0) || checkCuts(rectangles, 1);
