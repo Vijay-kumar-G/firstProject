@@ -1,5 +1,4 @@
 class Solution {
-
     public int countSymmetricIntegers(int low, int high) {
         int res = 0;
         for (int a = low; a <= high; ++a) {
