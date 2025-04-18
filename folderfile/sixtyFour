@@ -1,5 +1,4 @@
 class Solution {
-
     public int countPairs(int[] nums, int k) {
         int n = nums.length;
         int res = 0; // number of pairs meeting the requirements
