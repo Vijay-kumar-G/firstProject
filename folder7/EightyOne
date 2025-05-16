@@ -1,4 +1,4 @@
-vclass Solution {
+class Solution {
     public boolean differByOneChar(String word1, String word2) {
         if (word1.length() != word2.length()) return false;
         int diffCount = 0;
