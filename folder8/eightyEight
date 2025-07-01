@@ -1,5 +1,4 @@
 class Solution {
-
     public int possibleStringCount(String word) {
         int n = word.length(), ans = 1;
         for (int i = 1; i < n; ++i) {
