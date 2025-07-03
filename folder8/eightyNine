@@ -9,7 +9,7 @@ class Solution {
                 now=now+(char)(av+1);
             }
             word+=now;
-            
+
         }
         //System.out.print((word)+"--------------");
         //System.out.print(word.charAt(k+1));
