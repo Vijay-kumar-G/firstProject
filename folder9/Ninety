@@ -1,1 +1,20 @@
-
+class Solution {
+    public int findLucky(int[] arr) {
+        HashMap<Integer,Integer> h = new HashMap<>();
+        for(int each:arr){
+            if(h.containsKey(each)){
+                h.put(each,(h.get(each)+1));
+            }else{
+                h.put(each,1);
+            }
+        }
+        int largest=-1;
+        for(Map.Entry<Integer,Integer> entry: h.entrySet()){
+            if(entry.getKey()==entry.getValue()){
+                largest=entry.getKey();
+            }
+        }
+        return largest;
+        //by vj
+    }
+}
