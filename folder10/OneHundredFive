@@ -2,7 +2,6 @@ class Solution {
     public String largestGoodInteger(String num) {
         // Assign 'maxDigit' to the NUL character (smallest ASCII value character)
         char maxDigit = '\0';
-
         // Iterate on characters of the num string.
         for (int index = 0; index <= num.length() - 3; ++index) {
             // If 3 consecutive characters are the same, 
