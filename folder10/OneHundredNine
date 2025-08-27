@@ -1,5 +1,4 @@
 class Solution {
-
     private static final int[][] DIRS = {
         { 1, 1 },
         { 1, -1 },
