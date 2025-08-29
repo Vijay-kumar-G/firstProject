@@ -5,6 +5,7 @@ class Solution {
         { -1, -1 },
         { -1, 1 },
     };
+
     private int[][][][] memo;
     private int[][] grid;
     private int m, n;
