@@ -1,5 +1,4 @@
 import java.util.*;
-
 class TaskManager {
     Map<Integer, int[]> mp; // taskId -> {userId, priority}
     TreeSet<int[]> st;     // {priority, taskId}
