@@ -28,7 +28,6 @@ class Solution {
             fraction.append(remainder / divisor);
             remainder %= divisor;
         }
-
         return fraction.toString();
     }
 }
