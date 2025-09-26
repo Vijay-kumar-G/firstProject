@@ -9,3 +9,4 @@ class Solution {
         return tri.get(0).get(0);
     }
 }
+l
