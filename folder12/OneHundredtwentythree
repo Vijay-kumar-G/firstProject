@@ -1,5 +1,4 @@
 class Solution {
-
     public int trapRainWater(int[][] heightMap) {
         // Direction arrays
         int[] dRow = { 0, 0, -1, 1 };
