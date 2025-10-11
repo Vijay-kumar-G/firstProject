@@ -1,5 +1,4 @@
 class Solution {
-
     public long maximumTotalDamage(int[] power) {
         TreeMap<Integer, Integer> count = new TreeMap<>();
         for (int p : power) {
