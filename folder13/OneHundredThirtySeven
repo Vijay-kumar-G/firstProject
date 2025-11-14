@@ -1,5 +1,4 @@
 public class Solution {
-
     public int maxOperations(String s) {
         int countOne = 0;
         int ans = 0;
