@@ -1,1 +1,8 @@
-
+class Solution {
+    public int mirrorDistance(int n) {
+        String s = String.valueOf(n);
+        String aa=new StringBuilder(s).reverse().toString();
+        int rev = Integer.parseInt(aa);
+        return Math.abs(n-rev);
+    }
+} //by vj
