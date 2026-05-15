@@ -1,6 +1,5 @@
 
 class Solution {
-
     public boolean isGood(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length - 1;
