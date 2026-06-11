@@ -1,1 +1,4 @@
-186
+String reversed = alphabetOnly.reverse().toString();
+        
+        // 4. Compare both strings
+        return forward.equals(reversed);
