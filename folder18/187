@@ -1,1 +1,22 @@
 
+class Solution {
+    public String mapWordWeights(String[] words, int[] weights) {
+        String res="";
+        for(String each:words){
+            char[] word=each.toCharArray();
+            int sum=0;
+            for(char c:word){
+                sum+=weights[c-'a'];
+            }
+            int mod=sum%26;
+            mod=26-mod;
+            //System.out.println(mod);
+            char ch=(char) (mod+96);
+            res+=ch;
+            //System.out.println(res);
+        }
+
+        //System.out.println(word.toString());
+        return res;
+    }
+}//by vj
